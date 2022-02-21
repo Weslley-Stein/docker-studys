@@ -10,8 +10,8 @@ root@fedora: yum install docker-ce docker-ce-cli containerd.io
 
 ### Starting Docker and allowing it to start when the machine boot
 ```bash
-root@fedora: systemctl start docker-cli containerd.io
-root@fedora: systemctl enable docker-cli containerd.io
+root@fedora: systemctl start docker.service containerd.io
+root@fedora: systemctl enable docker.service containerd.io
 ```
 
 ### Allowing to use docker without use sudo everytime
