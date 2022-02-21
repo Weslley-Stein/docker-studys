@@ -39,7 +39,7 @@ docker container inspect [containerID/containerNAME]
 docker container stats [containerID/containerNAME]
 ```
 
-### Interact with a running container terminal(But just if his main process be Bash):
+### Interact with a running container terminal(But just if his main process is the Bash):
 
 ```docker
 docker container attach [containerID/containerNAME]
