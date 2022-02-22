@@ -1,0 +1,3 @@
+### What's a volume?
+
+Have you ever noticed when you delete a container everything inside him disappear with him? so, the solution for it is Volumes.
