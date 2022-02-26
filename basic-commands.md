@@ -1,7 +1,4 @@
-## Type of commands
-On Docker the most used types of commands is Container Commands and Images Commands, i will explain that with details on this file
-
-## Container Commands
+# Container Commands
 
 ### See all running containers:
 
@@ -95,3 +92,24 @@ docker container pause [conainerID/containerNAME]
 docker container unpause [containerID/containerNAME]
 ```
 
+
+# Volume Commands
+
+
+### Create a volume
+
+```docker
+docker volume create [name]
+```
+
+### Inspect a volume
+
+```docker
+docker volume inspect [name]
+```
+
+### Take an existing volume and attach it to a container
+
+```docker
+docker volume --mount type=volume,src=[volume],dst=[dir] [image]
+```
