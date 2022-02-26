@@ -17,5 +17,5 @@ root@fedora: systemctl enable docker.service containerd.io
 ### Allowing to use docker without use sudo everytime
 ```bash
 root@fedora: groupadd docker
-root@fedora: usermod -a -G docker
+root@fedora: usermod -a -G docker [username]
 ```
