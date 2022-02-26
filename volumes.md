@@ -22,3 +22,9 @@ The volume will be stored on "/var/lib/docker/volumes"
 ```docker
 docker volume create [name]
 ```
+
+### Delete a volume
+
+```docker
+docker volume rm [name]
+```
