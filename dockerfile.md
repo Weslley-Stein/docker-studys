@@ -17,3 +17,6 @@ Basiacally a dockerfile is a bunch of instrunctions to build a image
 
 ### OBS
 1. we have two types of "CMD" the EXEC CMD which looks like this: CMD ["npm", "install"] who is "the most correct one" and we also have the shell CMD, which looks like; CMD command. If you already have an entrypoint so youneed to use the EXEC CMD 
+
+Next Lesson:[[multi-stage]]
+

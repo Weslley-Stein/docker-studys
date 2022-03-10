@@ -25,3 +25,6 @@ RUN some-command
 6. Just creating a Workdir for my second stage
 7. Here is the coolest thing about that approach, we use COPY, but have you noticed the option "--from=", that allows me to copy something of the first stage, and if we do have another stages, we can make an Alias for each one of them, and then I had copy something of the first stage from path of the second stage
 8. I finish the whole process running another command
+
+Next Lesson:[[registry]]
+
