@@ -32,3 +32,5 @@ All the commands of docker start with the prefix "docker", and then we have
 		docker container run -v /home/user/:/home/container/ [...] #This one is a Bind mount
 		docker container run -v my_volume:/home/container/ [...] #And that one is a Volume Mount
 	```
+- f: Will force an action
+
