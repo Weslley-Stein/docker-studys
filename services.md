@@ -15,8 +15,11 @@ docker service create --name NAME --replicas NUMBER -p PORTHOST:PORTGUEST IMAGE
 ```
 
 ### Options:
-- --replicas: will specify the number of replicas(containers) for the service
-- --mount: mount a volume for the service(which can be bind or volume)
+- --replicas VALUE: will specify the number of replicas(containers) for the service
+- --mount 'type=,src=,dst=': mount a volume for the service(which can be bind or volume)
+- --secret SECRETNAME: will specify the secret of the service on his creation
+- --secret-add SECRETNAME: will add a secret on service update
+- --secret-rm SECRETNAME: will remove a secret on service update
 
 # OBS:
 1. When you bind a port on a service every replica will respond through the port of the service, doesnt matter which is his IP

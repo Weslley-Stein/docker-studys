@@ -11,6 +11,7 @@ docker container rm -f CONTAINERNAME
 - docker swarm(command applied for Swarm/Clusters)i
 - docker node(command applied for nodes)
 - docker network(command applied for networks)
+- docker secret(command applied for secrets)
 ---
 ### Subcommands
 - docker container
