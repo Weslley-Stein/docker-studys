@@ -10,6 +10,7 @@ docker container rm -f CONTAINERNAME
 - docker image(commands applied for images)
 - docker swarm(command applied for Swarm/Clusters)i
 - docker node(command applied for nodes)
+- docker network(command applied for networks)
 ---
 ### Subcommands
 - docker container
@@ -71,3 +72,6 @@ docker container rm -f CONTAINERNAME
 	```
 - f: Will force an action
 - a: Will show you "hidden" elements such as stoped containers or useless images
+- --name: will give a name for the container, image or service
+- --hostname: will specify the hostname of the container
+- --pretty: will "prettify" the inspect output

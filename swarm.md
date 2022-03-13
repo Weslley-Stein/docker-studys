@@ -18,4 +18,8 @@ Basically Docker Swarm its a Orchestration Container Tool, which allows you to c
 
 - -f: will force an action
 - --advertise-addr IP: will specify an IP for the swarm init
-- --rotate: will change the token of manager or worker for security porposes 
+- --rotate: will change the token of manager or worker for security porposes
+- --availability active|pause|drain: will change the availability of the node(active = available to have new containers, pause=unvailable to have new containers, drain=flush the container of the node)
+
+# OBS:
+1. You need to have 51% of managers nodes working on your cluster otherwise he will shutdown, which means if you have 3 managers node and 1 shutdown, you cluster still working but if you lose two, the cluster will shutdown 
